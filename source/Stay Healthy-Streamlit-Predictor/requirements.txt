@@ -1,0 +1,12 @@
+Keras-Preprocessing
+tensorflow-cpu
+keras
+imutils
+numpy
+opencv-contrib-python-headless
+matplotlib
+argparse
+scipy
+scikit-learn
+pillow
+streamlit

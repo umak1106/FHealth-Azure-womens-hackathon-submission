@@ -11,3 +11,4 @@ Deployed at : https://healthy.z5.web.core.windows.net/
 Youtube Video link : https://youtu.be/16BuwIRwOKU
 
 
+Kindly refer the idea directory for details about the idea (Fhealth.pdf and Readme file in the directory)

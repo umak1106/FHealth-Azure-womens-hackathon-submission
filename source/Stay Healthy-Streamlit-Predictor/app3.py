@@ -8,16 +8,16 @@ def app():
     CLASS_NAMES = ['High squamous intra-epithelial lesion', 'Low squamous intra-epithelial lesion', 'Negative for Intraepithelial malignancy', 'Squamous cell carcinoma']
     st.title("Diagnosis of pre-cancerous and cervical cancer lesions")
     st.markdown("Upload an image ")
-    plant_image = st.file_uploader("Choose an image...", type="jpg")
+    image = st.file_uploader("Choose an image...", type="jpg")
     submit = st.button('Predict')
 #On predict button click
     if submit:
 
 
-        if plant_image is not None:
+        if image is not None:
 
         # Convert the file to an opencv image.
-            file_bytes = np.asarray(bytearray(plant_image.read()), dtype=np.uint8)
+            file_bytes = np.asarray(bytearray(image.read()), dtype=np.uint8)
             opencv_image = cv2.imdecode(file_bytes, 1)
 
 
